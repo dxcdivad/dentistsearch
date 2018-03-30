@@ -5,7 +5,7 @@ class Practices extends Component {
 
   render() {
 
-    var address = this.props.street + ',' + '+' + this.props.city + ',' + '+' + this.props.state + '+' + this.props.zip
+    var address = (this.props.street + ',' + '+' + this.props.city + ',' + '+' + this.props.state + '+' + this.props.zip)
     var addressLink = address.replace(/ /g, '+')
 
     return (
